@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var http = require('http');
+        var server = new http.Server(function(req, res){
+            console.info(req, res);
+            writeHead('300');
+            res.end('ok');
+        });
+        server.listen(1334);
+    </script>
+</head>
+<body>
+STARTccvcvvc1111
+</body>
+</html>
